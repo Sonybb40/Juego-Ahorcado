@@ -1,0 +1,84 @@
+body{
+    background: url("img/fondo.jpg") no-repeat center;
+    background-size: 100% 100%;
+    margin: 0;  
+    min-height: 100vh;
+    overflow: hidden;     
+}
+header{
+    margin-bottom: 20px;  
+    padding: 0px;  
+}	
+.Logo{
+    padding-top: 10px;
+}
+.titulo{
+    color: black;
+    font-size: large;
+    margin-left: 90%;
+    margin-top: 0;  
+}
+main{
+	margin: auto;
+	padding: 20px; 
+    width: 80%;      
+}
+#imagen{
+    border: double;
+	border-radius: 10px; 
+    height: 30%; 
+    width: 25%;
+    margin-left: 36%;
+    margin-top: 0;
+}
+#palabra_a_adivinar{
+    height: 3em;
+    text-align: center;  
+}
+#palabra_a_adivinar span{
+    border-bottom: 2px solid black;
+    display: inline-block; 
+    font-family: 'Lobster', cursive;
+    font-size: 2em;
+    margin-right: 6px;
+    text-align: center;
+    vertical-align: bottom;
+    width: 30px;   
+}
+#jugar{
+    background-color: deepskyblue;	
+    border-radius: 10px;
+    height: 10%;
+    margin-bottom: 20px;
+    margin-left: 39%;
+    margin-top: 0;
+	width: 20%; 
+}
+#jugar:hover{
+    box-shadow: 10px 10px 10px black;
+	transition: 400ms;
+}
+#resultado{
+    text-align: center;
+}
+#letras{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 9px;   
+    margin-top: 30px;    
+}   
+#letras button{
+    background-color: lightblue;
+    border-radius: 10px;
+    justify-content: center;
+    padding: 6px 0;
+	width: 28px;	
+}
+#letras button:hover{
+    box-shadow: 5px 5px 5px black;
+}
+footer{
+    font-size: large;
+    padding-top: 0;
+    text-align: center;  
+}
